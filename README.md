@@ -12,7 +12,8 @@ Design: [Yoga] (https://cdn.discordapp.com/attachments/850245533838868480/916019
 
 -   Github pages
 -   fixed width container
--header: logo + nav
+-   header: logo + nav
+-   png images
 
 ## Authors
 
