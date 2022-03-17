@@ -6,6 +6,7 @@ main {
   display: inline-block;
   width: 1000px;
   margin-left: calc(50% - 500px);
+  margin-top: 20px;
 }
 
 header > img {
@@ -41,23 +42,34 @@ body > main {
 }
 main > div {
   width: 45%;
-  color: green;
   float: left;
   padding-right: 10%;
 }
 div > h1 {
-  background-color: aqua;
+  font-weight: normal;
+  font-family: cursive;
 }
+span {color: tomato;}
+
 div > p {
-  background-color: cadetblue;
+  margin-bottom: 25px;
+  font-family: cursive;
 }
 
 div > a {
-  background-color: pink;
+  background-color: tomato;
+  padding: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: wheat;
 }
 
-main > img {width: 45%;
-  background-color: coral;
+main > img {
+  width: 45%;
+  height: 594px;
   float: right;
   object-fit: contain;
+  object-position: top;
 }
